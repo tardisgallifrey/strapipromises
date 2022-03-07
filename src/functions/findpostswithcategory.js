@@ -1,4 +1,5 @@
-
+//This is it.  The component to find blogs with a specific
+//category.  
 
 export function FindPostswithCategory(props){
     var cat_array = [];
