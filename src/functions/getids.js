@@ -17,7 +17,7 @@ export function GetIds(props) {
             },[])
 
     if(myBlog.data !== undefined){
-        console.log(myBlog.data);
+        //console.log(myBlog.data);
         blogids = myBlog.data.map((item)=><li key={item.id}>{item.id}</li>)
     }
 
