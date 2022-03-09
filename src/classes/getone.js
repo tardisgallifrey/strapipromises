@@ -1,8 +1,7 @@
 import React from 'react';
-import { Component } from 'react/cjs/react.production.min';
 
 //This is the same as ReadOne component, but in class component form
-export default class ReadOne extends Component{
+export default class ReadOne extends React.Component{
     //We set up a React class constructor,
     //much different than a regular C++/Java constructor.
     //It is a JavaScript ES6 constructor

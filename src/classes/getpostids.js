@@ -1,8 +1,7 @@
 import React from 'react';
-import { Component } from 'react/cjs/react.production.min';
 
 //This is the same as GetIds component, but in class component form
-export default class GetPostIds extends Component{
+export default class GetPostIds extends React.Component{
     
     constructor(props) {
         super(props);
